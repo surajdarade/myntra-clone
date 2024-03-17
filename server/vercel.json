@@ -1,0 +1,10 @@
+{
+    "version": 1,
+    "name": "myntra-clone-server",
+    "builds": [
+       { "src": "app.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+       { "src": "/(.*)", "dest": "/app.js" }
+    ]
+ }
